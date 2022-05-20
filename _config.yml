@@ -29,6 +29,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - mathJax
 
 titles_from_headings:
   strip_title: true
