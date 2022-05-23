@@ -1,6 +1,7 @@
 # Policy Gradient
 ## Objective Function
 $$J(\theta)=E_{\pi}\left[ \sum_t r_t \right]$$
+
 $\theta$ is the parameter of policy.
 
 If we want to calculate the approximation of the objective function, we can sample trajectories from the policy to get the expectation.
