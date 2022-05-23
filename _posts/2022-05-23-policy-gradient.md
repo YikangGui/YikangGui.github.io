@@ -10,6 +10,7 @@ $$J(\theta)\approx \frac{1}{N}\sum^N_{i=1} \sum_t r^i_t$$
 This approximation is trivial and fast.
 
 ## Direct Policy Differentiation
+
 $$
 \begin{align}
 J(\theta) &= E_{\tau\sim p_\theta(\tau)}\left[ r({\tau}) \right]\\
