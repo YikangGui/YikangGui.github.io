@@ -11,15 +11,12 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 ### This is a header
 $e^x=1$
 
-$
-e^x = 1
-$
+$$\begin{aligned} 2x - 4 &= 6 \\ 2x &= 10 \\ x &= 5 \end{aligned}$$
 
-$$
-V = \frac{O-P}{FC}
-$$
-
-\\(V = \frac{O-P}{FC}\\)
+$$\begin{align*} 
+2x - 5y &=  8 \\ 
+3x + 9y &=  -12
+\end{align*}$$
 
 #### Some T-SQL Code
 
