@@ -1,17 +1,18 @@
 # Policy Gradient
 
-## Important Equations <a name="111"></a>
+## Important Equations <a name="important-equations"></a>
 
 $$
 \begin{equation}
-p_\theta(s_1,a_1,\dots,s_T,a_T)=p(s_1)\prod_{t=1}^T\pi_\theta(a_t|s_t)p(s_{t+1}|s_t,a_t)
+p_\theta(s_1,a_1,\dots,s_T,a_T)=p(s_1)\prod_{t=1}^T\pi_\theta(a_t|s_t)p(s_{t+1}|s_t,a_t)\label{eq:*}\\
+a=b
 \end{equation}
 $$
 
 ## Objective Function
 
 $$ 
-J(\theta)=E_{\pi}\left[ \sum_t r_t \right] \tag{1}\label{eq:1}
+J(\theta)=E_{\pi}\left[ \sum_t r_t \right] \label{eq:1}
 $$
 
 $\theta$ is the parameter of policy.
@@ -41,127 +42,6 @@ $$
 \begin{align*}
 \nabla_\theta J(\theta) &=\nabla_\theta \int p_\theta(\tau)r(\tau)d\tau\\
 &= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \\
-&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \tag{2}\label{eq:2}
+&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \label{eq:2}
 \end{align*}
 $$
-
-test ref $\eqref{eq:2}$
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-1
-
-
-$\eqref{eq:1}$
-[important](#111)
