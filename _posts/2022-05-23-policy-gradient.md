@@ -20,9 +20,13 @@ $$
 where $r(\tau)=\sum_{t=1}^T r(s_t,a_t)$
 
 $$
-\begin{align}
+\begin{equation}
+\begin{split}
 \nabla_\theta J(\theta) &=\nabla_\theta \int p_\theta(\tau)r(\tau)d\tau\\
 &= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau\\
 &= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \\
-\end{align}
+\end{split}
+\end{equation}
 $$
+
+
