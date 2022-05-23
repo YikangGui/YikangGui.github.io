@@ -22,14 +22,14 @@ J(\theta) &= E_{\tau\sim p_\theta(\tau)}\left[ r({\tau}) \right]\\
 \end{equation*}
 $$
 
-where $r(\tau)=\sum_{t=1}^T r(s_t,a_t)$
+where $r(\tau) = \sum_{t=1}^T r(s_t,a_t)$
 
 $$
 \begin{align}
 \nabla_\theta J(\theta) &=\nabla_\theta \int p_\theta(\tau)r(\tau)d\tau \notag\\
-&= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \notag\\
-&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \\
+&= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \label{eq:2}\\
+&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \label{eq:1}
 \end{align}
 $$
 
-test
+test ref $\eqref{eq:1}$ and $\eqref{eq:2}$
