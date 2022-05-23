@@ -27,9 +27,9 @@ where $r(\tau) = \sum_{t=1}^T r(s_t,a_t)$
 $$
 \begin{align}
 \nabla_\theta J(\theta) &=\nabla_\theta \int p_\theta(\tau)r(\tau)d\tau \notag\\
-&= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \label{eq:2}\\
-&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \label{eq:1}
+&= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \\
+&= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \tag{1}\label{eq:1}
 \end{align}
 $$
 
-test ref $\eqref{eq:1}$ and $\eqref{eq:2}$
+test ref $\eqref{eq:1}$
