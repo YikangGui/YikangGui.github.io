@@ -11,11 +11,12 @@ This approximation is trivial and fast.
 
 ## Direct Policy Differentiation
 $$
-\begin{align*}
+\begin{align}
 J(\theta) &= E_{\tau\sim p_\theta(\tau)}\left[ r({\tau}) \right]\\
 &=\int p_\theta(\tau)r(\tau)d\tau\\
-\end{align*}
+\end{align}
 $$
+
 where $r(\tau)=\sum_{t=1}^T r(s_t,a_t)$
 
 $$
