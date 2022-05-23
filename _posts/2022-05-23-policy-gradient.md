@@ -12,7 +12,7 @@ $$
 ## Objective Function
 
 $$ 
-J(\theta)=E_{\pi}\left[ \sum_t r_t \right] \label{eq:1}
+J(\theta)=E_{\pi}\left[ \sum_t r_t \right] \tag{1}\label{eq:1}
 $$
 
 $\theta$ is the parameter of policy.
