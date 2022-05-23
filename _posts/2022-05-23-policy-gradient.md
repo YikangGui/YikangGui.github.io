@@ -25,13 +25,11 @@ $$
 where $r(\tau)=\sum_{t=1}^T r(s_t,a_t)$
 
 $$
-\begin{equation}
-\begin{split}
+\begin{align}
 \nabla_\theta J(\theta) &=\nabla_\theta \int p_\theta(\tau)r(\tau)d\tau \notag\\
 &= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau \notag\\
 &= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \\
-\end{split}
-\end{equation}
+\end{align}
 $$
 
-
+test
