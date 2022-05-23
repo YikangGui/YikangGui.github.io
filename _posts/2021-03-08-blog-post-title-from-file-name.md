@@ -11,6 +11,10 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 ### This is a header
 $e^x=1$
 
+$
+e^x = 1
+$
+
 $$
 V = \frac{O-P}{FC}
 $$
