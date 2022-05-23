@@ -1,5 +1,6 @@
 # Policy Gradient
 ## Objective Function
+
 $$J(\theta)=E_{\pi}\left[ \sum_t r_t \right]$$
 
 $\theta$ is the parameter of policy.
@@ -13,10 +14,12 @@ This approximation is trivial and fast.
 ## Direct Policy Differentiation
 
 $$
-\begin{align}
+\begin{equation*}
+\begin{split}
 J(\theta) &= E_{\tau\sim p_\theta(\tau)}\left[ r({\tau}) \right]\\
 &=\int p_\theta(\tau)r(\tau)d\tau\\
-\end{align}
+\end{split}
+\end{equation*}
 $$
 
 where $r(\tau)=\sum_{t=1}^T r(s_t,a_t)$
@@ -28,6 +31,7 @@ $$
 &= \int \nabla_\theta p_\theta(\tau)r(\tau)d\tau\\
 &= \int p_\theta(\tau) \nabla_\theta \log p_\theta(\tau)r(\tau)d\tau \\
 \end{split}
+\label{eq:sa}
 \end{equation}
 $$
 
